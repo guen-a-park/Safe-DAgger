@@ -1,0 +1,9 @@
+gym==0.17.2
+tensorflow==1.13.1
+keras==2.3.1
+numpy==1.18.5
+scikit-learn==0.22.2.post1
+cython==0.29.26
+glfw==2.5.0
+
+
