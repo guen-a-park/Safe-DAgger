@@ -55,7 +55,7 @@ conda activate (your own env name)
       export LD_LIBRARY_PATH=~/.mujoco/mjpro150/bin/
       ```
     
-3. Install rest of the libraries given in contribution_requirements.txt file using pip
+3. Install rest of the libraries given in requirements.txt file using pip
  ```sh
  pip install --user --requirement requirements.txt
  ```
