@@ -66,7 +66,7 @@ def run_exp_bc(expert_name, expert_data_file, render = False):
         totalr = 0.
         steps = 0
 
-        expert_model = load_model('models/' + expert_name + '_expert_model.h5')
+        expert_model = load_model('models2/' + expert_name + '_expert_model.h5')
         while not done:
 
             exp_action = expert_model.predict(obs[None, :], batch_size = 64, verbose = 0)
@@ -122,7 +122,7 @@ def run_exp_bc(expert_name, expert_data_file, render = False):
         done = False
         totalr = 0.
         steps = 0
-        cloned_model = load_model('models/' + expert_name + '_bc_model.h5')
+        cloned_model = load_model('models2/' + expert_name + '_bc_model.h5')
         while not done:
 
             bc_action = cloned_model.predict(obs[None, :], batch_size = 64, verbose = 0)
