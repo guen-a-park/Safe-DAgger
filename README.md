@@ -94,4 +94,4 @@ During the second loop and so on, the function **check_diff** check the differen
 
 https://github.com/rudolfsteiner/DAgger
 
-https://github.com/berkeleydeeprlcourse/homework_fall2019
+https://github.com/berkeleydeeprlcourse/homework_fall2019/tree/master/hw1
