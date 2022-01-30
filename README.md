@@ -14,9 +14,11 @@ keras (2.3.1)
 
 mujoco (1.50.1.1)
 
-numpy (1.18.5)
+gym (0.17.2)
 
-gym (0.17.2) 
+------If you not want to use anaconda virtual environment and already install the programs under this line then revise the requirements.txt text file----------
+
+numpy (1.18.5)
 
 scikit-learn (0.22.2.post1)
 
