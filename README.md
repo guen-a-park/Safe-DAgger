@@ -17,8 +17,7 @@ mujoco (1.50.1.1)
 gym (0.17.2)
 
 ```sh
-If you not want to use anaconda virtual environment and already install the programs under this block 
-then revise the requirements.txt text file
+If you do not want to use anaconda virtual environment and already install the programs under this block, revise the requirements.txt text file
 ```
 
 numpy (1.18.5)
