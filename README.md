@@ -17,7 +17,7 @@ mujoco (1.50.1.1)
 gym (0.17.2)
 
 ```sh
-If you do not want to use anaconda virtual environment and already install the programs under this block, revise the requirements.txt text file
+If you do not want to use anaconda virtual environment and already install the programs under this block, revise the requirements.txt text file.
 ```
 
 numpy (1.18.5)
@@ -33,6 +33,8 @@ glfw (2.5.0)
 **Note**: MuJoCo versions until 1.5 do not support NVMe disks therefore won't be compatible with recent Mac machines.
 There is a request for OpenAI to support it that can be followed [here](https://github.com/openai/gym/issues/638).
 
+**Note**: If you have problem with the line "you need to install mujoco_py..." 
+check https://github.com/openai/mujoco-py/ and see the **Ubuntu installation troubleshooting**
 
 
 ## Getting Started
@@ -64,8 +66,6 @@ conda activate (your own env name)
  pip install --user --requirement requirements.txt
  ```
 
-
-
 ## File explanation
 
 - **expert_bc_cheetah.py** : You can run expert policy, behavior cloning policy and random action.
@@ -77,7 +77,6 @@ If you want to run random action, check the bottom of the line and change the fu
 If there are no policy files, run **expert_bc_cheetah.py** first.
 
 During the running, you can see 4 times safe-Dagger iteration and get safe-dagger policy file.
-
 
 
 ## Function explanation
