@@ -26,7 +26,8 @@ def check_diff(exp_act,bc_act):
     diff = np.squeeze(np.diff(x, axis=0))
     #하나라도 일정값 이상 차이나면 exp_action으로 저장
     for i in diff:
-        if i > 0.001:
+        i = np.abs(i)
+        if i > 0.4:
             return i
         else: return 0
 
@@ -65,7 +66,7 @@ def run_dagger(expert_name, expert_data_file, render = True):
             #check difference
             tau = check_diff(exp_action,bc_action)
 
-            if tau>0.001:
+            if tau>0.4:
                 dagger_observations.append(obs)
                 dagger_actions.append(exp_action)
                 obs, r, done, _ = env.step(exp_action)
@@ -157,7 +158,7 @@ def run_dagger(expert_name, expert_data_file, render = True):
                 #check difference
                 tau = check_diff(exp_action,dagger_action)
 
-                if tau>0.001:
+                if tau>0.4:
                     dagger_observations.append(obs)
                     dagger_actions.append(exp_action)
                     obs, r, done, _ = env.step(exp_action)
