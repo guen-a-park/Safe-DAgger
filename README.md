@@ -88,7 +88,7 @@ Then, using expert data, it trains behavior cloning policy and save the policies
 
 - Function **run_dagger** in **safe_dagger_cheetah.py** can run safe-Dagger. 
 
-During the first loop, the function **check_diff** checks the differences between 'expert action' and 'behavior cloning action' and if there's any value which the differences are larger than 0.001, print the action as expert action and aggregate those data.
+During the first loop, the function **check_diff** checks the differences between 'expert action' and 'behavior cloning action' and if there's any value which the differences are larger than 0.4, print the action as expert action and aggregate those data.
 
 During the second loop and so on, the function **check_diff** check the difference between 'expert aciton' and 'Safe-Dagger action' and check the difference between those actions.
 
