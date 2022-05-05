@@ -1,10 +1,9 @@
 # Safe-DAgger
-[Video](https://youtu.be/M91-O1PvHL4)
-[Paper](https://drive.google.com/file/d/115U6QWEONwgyqQpESF1_1JEwEKVDaTQZ/view?usp=sharing)
+[KRoC 2022] TP2-2-11 (00081)
+[Video](https://youtu.be/M91-O1PvHL4) / [Paper](https://drive.google.com/file/d/115U6QWEONwgyqQpESF1_1JEwEKVDaTQZ/view?usp=sharing)
 
-This project only has been tested on ubuntu 20.04 environment
-
-If you do want to test other environments' imitation learning behavior check this repository. 
+This project only has been tested on ubuntu 20.04 environment.
+**If you do want to test other environments' imitation learning behavior check this [repository](https://github.com/guen-a-park/StableBL_SafeDAgger).** 
 
 
 ## Requirements
